@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Test.aspx.cs" Inherits="Todolist.Test" %>
+﻿<%@ Page Language="C#"  AutoEventWireup="true" CodeBehind="Test.aspx.cs" Inherits="Todolist.Test" %>
 
 <!DOCTYPE html>
 
@@ -13,7 +13,8 @@
             <asp:Label runat="server" ID="count"></asp:Label>
         </div>
         <p>
-            <asp:Button runat="server" OnClick="Unnamed_Click" Height="40px" Text="+1" Width="58px"/>
+            <asp:Button ID="increment" runat="server" OnClick="Unnamed_Click" Height="40px" Text="+1" Width="58px"/>
+         
         </p>
     </form>
 </body>
